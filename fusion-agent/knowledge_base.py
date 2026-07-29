@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-REPO_PATH = "/home/user/fusiondataconversion"
+REPO_PATH = str(Path(__file__).parent.parent)
 
 CODE_EXTENSIONS = {".sql", ".pkb", ".pkh", ".txt", ".xml", ".csv", ".ctl"}
 
